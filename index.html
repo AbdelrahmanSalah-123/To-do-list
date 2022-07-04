@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="CSS/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+      <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h4>Error</h4>
+      <p>Add Task</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat closebtn">Agree</a>
+    </div>
+  </div>
+  
+  </div>
+  <div class="container">
+  <div class="card-panel">
+    <h3 class="text-darken-2">Add Task</h3>
+    <div class="row">
+      <div class="input-field col s12">
+        <input  id="first_name2" type="text" class="validate taskinput">
+        <label class="active" for="first_name2">New Task</label>
+      </div>
+      <a class="waves-effect waves-light btn taskbtn unactive">Add Task</a>
+    </div>
+    <div>
+      <h3>Tasks List</h3>
+      <div class="row">
+        <div class="input-field col s12">
+          <input  id="first_name" type="text" class="validate filterinput">
+          <label class="active" for="first_name">Filter Tasks</label>
+        </div>
+      </div>
+        <div class="task">
+          <ul id="list">
+            
+          </ul>
+        </div>
+        <a class="waves-effect waves-light btn black clearbtn">Clear Tasks</a>
+      
+    </div>
+  </div>
+</div>
+
+  <script src="JS/jquery-3.6.0.min.js"></script>
+
+  <script type="text/javascript" src="JS/materialize.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+</html>
